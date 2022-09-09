@@ -1,0 +1,165 @@
+*{
+
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 100%;
+}
+
+h1, h2, h3{
+  color: #4ab19a;
+}
+
+body{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.top-container{
+  background-color: #e4f9f5;
+  padding-top: 80px;
+}
+
+.top-container h1{
+  font-family: 'Parisienne', cursive;
+  font-size: 5em;
+}
+
+.top-container .pro{
+  text-decoration: underline;
+}
+
+.cloud{
+  width: 160px;
+  position: absolute;
+}
+.cloud1{
+  top: 100px;
+  right: 200px
+}
+
+.cloud2{
+  top: 250px;
+  left: 180px;
+}
+
+.mountain{
+  width: 65%;
+  vertical-align: middle;
+}
+
+.top-container p{
+  color: #4ab19a;
+  font-size: 1.5rem;
+  margin: 20px auto 80px;
+}
+
+.middle-container{
+  margin: 100px 0;
+  background-color: white;
+}
+
+.profile{
+  margin: 100px 0;
+}
+.profile img{
+  width: 15%;
+}
+
+.profile h2{
+  margin: 20px;
+}
+
+.profile p{
+  width: 40%;
+  margin: auto;
+}
+
+.skills{
+  margin: 100px auto;
+}
+
+.skills h2{
+  font-size: 2rem;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 80px auto;
+  text-align: left;
+  line-height: 2
+}
+
+.skill-row img{
+  width: 30%;
+}
+
+.skill-row h3{
+  margin: 10px auto;
+}
+
+.code-img{
+  float: left;
+  margin: 15px 0;
+  margin-right: 30px
+}
+
+.painting-img{
+  float: right;
+  margin-left: 30px
+}
+
+.middle-container hr{
+  border: 0;
+  border-top: 5px dotted #4ab19a;
+  width: 5%;
+  margin: 0 auto;
+}
+
+.contact-me{
+  margin: 100px auto;
+}
+
+.contact-me h2{
+  font-size: 2rem;
+  margin: 20px auto;
+}
+
+.contact-me p{
+  width: 40%;
+  margin: 40px auto 70px;
+}
+
+.btn{
+  color: #036851;
+  text-decoration: none;
+background: linear-gradient(0deg, rgba(0,186,144,1) 0%, rgba(91,218,189,1) 100%);
+  padding: 12px 30px;
+  border-radius: 15px;
+}
+
+.btn:hover{
+  background-color: #35907C;
+  color: white;
+}
+
+.bottom-container{
+  background-color: #46C7AF;
+  padding: 50px 0 30px;
+}
+
+.bottom-container p{
+  color: white;
+  margin-top: 20px;
+  font-size: 13px
+}
+.footer-link{
+  margin: 20px;
+  color: #036851;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: white;
+}
